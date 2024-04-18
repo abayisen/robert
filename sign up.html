@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>	REGISTRATION FORM</title>
+</head>
+<!-- <link rel="stylesheet" type="text/css" href="sign up.css"> -->
+<style>
+a{
+		color: black;
+}
+body{
+	margin:0;
+	padding: 0;
+	background-color: skyblue;
+	background-size: cover;
+	background-position: sans-serif;
+}
+
+.regform{
+               height: 70px;
+			  position: center;
+               /* padding-right: 50%; */
+               box-sizing: border-box;
+			   	
+}
+form{
+	
+	background-color:rgb(69, 204, 237) ;
+	height: fit-content;
+	width:fit-content;
+
+}
+
+textarea {
+	width: 50px;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+}
+
+input[type=button] {
+	background-color: #659080;
+	border: none;
+	color: rgb(8, 8, 8);
+	padding: 10px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+  input[type=text],input[type=number],input[type=password],select, textarea {
+	width: 80%;
+	padding: 12px;
+	border: none;
+	border-radius: none;
+	resize: vertical;
+  }
+  
+  input[type=checkbox]{
+	cursor: pointer;
+
+  }
+select.gender{
+	cursor: pointer;
+}
+select.phone{
+	cursor: pointer;
+}
+input[type=button]:hover{
+background-color: rgb(50, 50, 234);
+color: rgb(242, 237, 237);
+}
+
+</style>
+<body>
+	<a href="index.html"><b><u>Back</u></b></a>
+	<center>
+
+		<div class="regform"><h1>Registedr Hire</h1></div>
+		<div class="main">
+			<form>
+				<div id="name">
+					<h2 class="name">Name</h2>
+					<input type="text" class="firstname" name=""placeholder="firstname"><br>
+					<br>
+					<input type="text" class="lastname" name=""placeholder="Lastname">
+				</div>
+				<h2 >Age</h2>
+				<input type="number" class="age" name=""placeholder="enter your age">
+		
+				<h2 class="Gender">Gender</h2>
+				<select class="gender">
+					<option>Male</option>
+					<option>Female</option>
+					<option>Other</option>
+				</select>
+				<h2 class="E-mail">E-mail</h2>
+				<input type="text" class="email" name="" placeholder="e.g. zzzz@gmail.com">
+				
+				<h2 class="Phone">Phone</h2>
+				
+				<input type="text" class="number" placeholder="phone number" name="">
+				<h2 class="password">Password</h2>
+				<input type="password"class="pass1" placeholder="enter password"><br>
+				<br>
+				<input type="password" class="pass2" placeholder="re-enter password">
+		
+				<p class="condition"><input type="checkbox" id="terms" name="">I accept the terms and condition</p><br><br>
+		
+				<input type="button" class="btn" value="register" name="">
+			</form>
+		</div>
+	</center>
+</body>
+</html>
